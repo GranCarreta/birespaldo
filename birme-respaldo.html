@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>B.I.R.M.E. - Batch Image Resizing Made Easy (Online &amp; Free)</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <script src="jzip.min.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div id="main-content" class="page-wide-elements">
+    <div style="display:inline-block;float:left">
+        <img src="images/logo.jpg" width="100" height="100" alt="birme">
+    </div>
+    <div style="margin-left:20px;display:inline-block;float:left;width:730px">
+        <h2>Batch Image Resizing Made Easy</h2>
+        <p>BIRME is a flexible and easy to use batch image resizer. It can resize your images to any specific dimensions
+            and crop your images proportionately if necessary. It's an online tool and that means you don't need to
+            download or install anything on your computer. BIRME is absolutely free to use.</p>
+    </div>
+    <div style="clear:both;margin-bottom:5px;"></div>
+    <script async type="text/javascript" src="birmeme.js" id="_carbonads_js"></script>
+    <div id="left" class="workarea">
+        <div id="preview"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div id="browse-hit-area" class="button-image">
+            <input type="file" id="browse" class="browse-btn" multiple/>
+            <input type="file" id="browse2" class="browse-btn" multiple/>
+            <br>
+            <input type="file" id="browse3" class="browse-btn" multiple/>
+            <input type="file" id="browse4" class="browse-btn" multiple/>
+            <br>
+        </div>
+        <div id="clear" class="button-image"></div>
+        <div id="downloadify" class="button-image" style="float:right" onclick="generate()"></div>
+    </div>
+    <div id="right" style="margin-left:3em;" class="workarea">
+        <div id="share-btns">
+            <span class='st_twitter_vcount' displayText='Tweet'></span>
+            <span class='st_facebook_vcount' displayText='Facebook'></span>
+            <span class='st_email_vcount' displayText='Email'></span>
+            <span class='st_sharethis_vcount' displayText='ShareThis'></span>
+        </div>
+        <div class="spacer"></div>
+        <div id="resize-tab" class="tab-contents">
+            <p> <span id="resizeByDimText" class="individual-contents">
+							<input type="radio" name="resizeByBtn" id="resizeByDim" value="dim">
+							Resize and crop to dimensions: </span>
+            <div id="resizeByDimContent" class="individual-contents"> <span id="dimText" class="subcontrol">Width:
+								<input type="text" id="widthText" class="num-field">
+								px &nbsp;Height:
+								<input type="text" id="heightText" class="num-field">
+								px</span> <br>
+                <br>
+                <span id="flexiblility" style="margin-left:1.2em">
+								<input type="radio" id="noAuto" name="flexBtns" value="none">
+								No auto-sizing &nbsp;
+								<input type="radio" id="autoHeight" name="flexBtns" value="height">
+								Auto-height &nbsp;
+								<input type="radio" id="autoWidth" name="flexBtns" value="width">
+								Auto-width</span> <br>
+                <br>
+                <span id="cropPriority" class="subcontrol">Crop align: X:
+								<select id="cropAlignX">
+									<option value="left">Left</option>
+									<option value="center">Center</option>
+									<option value="right">Right</option>
+								</select>
+								&nbsp;&nbsp;Y:
+								<select id="cropAlignY">
+									<option value="top">Top</option>
+									<option value="center">Center</option>
+									<option value="bottom">Bottom</option>
+								</select>
+							</span> <br>
+                <br>
+            </div>
+            <br>
+            <div id="resizeByPercContent" class="individual-contents">
+                <input type="radio" name="resizeByBtn" id="resizeByPerc" value="perc" checked>
+                Resize by percentage: &nbsp; <span id="resizeByPercText">
+								<input type="text" id="percText" class="num-field">
+								%</span> <br>
+                <br>
+            </div>
+            <br>
+            <div id="borderContent" class="individual-contents"> <span id="borderSpan">Border thickness: &nbsp;
+								<input type="text" id="borderWidthText" class="num-field">
+								px</span></div>
+            <div id="qualityContent" class="individual-contents"> <span id="qualitySpan">JPG quality setting: &nbsp;
+								<input type="text" id="qualityText" class="num-field">
+								%</span></div>
+            <br>
+        </div>
+    </div>
+</div>
+<div style="clear:both"></div>
+
+
+<script src="birme1.js"></script>
+<script src="brime2.js"></script>
+<script src="birme3.js"></script>
+<script src="birme4.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-576391-30']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    fjs.parentNode.insertBefore(js, fjs);
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript">var switchTo5x = true;</script>
+<script type="text/javascript" src="birmebirme.js"></script>
+</body>
+</html>
